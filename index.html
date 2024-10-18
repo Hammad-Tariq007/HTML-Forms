@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This contains all about HTML Forms" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>HTML Form - Practice</h1>
+    <div>
+      <form action="">
+        <div>
+          <label for="username">Name:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Your Name"
+          /><br />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          /><br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="username"
+            id="password"
+            placeholder="Enter Your Password"
+          /><br />
+        </div>
+        <div>
+          <p>Please check all the emotions that apply to you:</p>
+          <input type="checkbox" id="angry" name="angry" />
+          <label for="angry">Angry</label><br />
+          <input type="checkbox" id="sad" name="sad" />
+          <label for="sad">Sad</label><br />
+          <input type="checkbox" id="happy" name="happy" />
+          <label for="happy">Happy</label><br />
+          <input type="checkbox" id="ambivalent" name="ambivalent" />
+          <label for="ambivalent">Ambivalent</label><br />
+        </div>
+        <div>
+          <p>How satisfied were you with our service:</p>
+          <input
+            type="radio"
+            id="very satisfied"
+            value="very satisfied"
+            name="service"
+          />
+          <label for="very satisfied">Very Satisfied</label><br />
+          <input type="radio" id="satisfied" value="satisfied" name="service" />
+          <label for="satisfied">Satisfied</label><br />
+          <input
+            type="radio"
+            id="didn't care"
+            value="didn't care"
+            name="service"
+          />
+          <label for="didn't care">Didn't care</label><br />
+          <input
+            type="radio"
+            id="dis-satisfied"
+            value="dis-satisfied"
+            name="service"
+          />
+          <label for="dis-satisfied">Dis-satisfied</label><br />
+          <input
+            type="radio"
+            id="very dis-satisfied"
+            value="very dis-satisfied"
+            name="service"
+          />
+          <label for="very dis-satisfied">Very Dis-satisfied</label><br />
+        </div>
+        <br />
+        <div>
+          <label for="comments">Further Comments:</label><br />
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="5
+            "
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile" />
+        </div>
+        <br />
+        <div>
+          <label for="location">Location Visited:</label>
+          <select name="location" id="location">
+            <option value="">Select your Option</option>
+            <option value="Paris">Paris</option>
+            <option value="Rome">Rome</option>
+            <option value="London">London</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Istanbul">Istanbul</option>
+          </select>
+        </div>
+        <br>
+        <input type="submit">
+      </form>
+    </div>
+  </body>
+</html>
